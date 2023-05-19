@@ -1,0 +1,155 @@
+body {
+  background-color: #c2dde6;
+}
+
+.add-icon {
+  margin-left: 200px;
+  margin-bottom: 2px;
+  /* background-color: red; */
+  /* color: green; */
+  font-size: 50px;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 3px;
+}
+
+.add-icon-read {
+  margin-right: 4px;
+  margin-bottom: 2px;
+  /* background-color: red; */
+  /* color: green; */
+  font-size: 35px;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 3px;
+}
+
+/* input  */
+.name-icon {
+    /* background-color: red; */
+    /* color: green; */
+    margin-right: 5px;
+    margin-left: 8px;
+    margin-bottom: 3px;
+  }
+  
+.addressbook-icon{
+      margin-left: 350px;
+      margin-bottom: px;
+      /* background-color: red; */
+      /* color: green; */
+      font-size: 35px;
+      /* border: 2px solid black; */
+      /* border-radius: 50px; */
+      /* padding: 5px; */
+  
+  }
+  
+.create-title {
+    color: 101357;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.main-container {
+  margin-top: 35px;
+  background-color: rgb(176, 202, 240);
+  width: 500px;
+  height: 680px;
+  margin-left: 500px;
+  /* font-style:oblique; */
+  border: 2px solid black;
+  border-radius: 50px;
+  box-shadow: 20px 20px 8px 5px rgb(7, 26, 108);
+  padding: 23px;
+  font-weight: bold;
+  /* color: white; */
+}
+
+.main-container-read {
+  margin-top: 35px;
+  background-color: rgb(176, 202, 240);
+  width: 800px;
+  height: 680px;
+  margin-left: 400px;
+  /* font-style:oblique; */
+  border: 2px solid black;
+  border-radius: 50px;
+  box-shadow: 20px 20px 8px 5px rgb(7, 26, 108);
+  padding: 23px;
+  font-weight: bold;
+  /* color: white; */
+}
+
+.field-container {
+  /* background-color: red; */
+  padding: 10px;
+  margin-left: 50px;
+  width: 400px;
+}
+
+.input-design {
+  /* background-color: red; */
+  border-radius: 50px;
+  width: 350px;
+}
+
+
+.sb {
+  margin-top: 120px;
+  margin-left: 85px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 50px;
+}
+
+
+
+.read-title {
+  /* background-color: red; */
+  color: 101357;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: px;
+ 
+}
+
+.add-btn {
+  /* background-color: red; */
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 50px;
+}
+
+.table-head-design {
+  /* background-color:red; */
+  font-size: 23px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  color: rgb(18, 15, 15);
+}
+
+.table-data {
+  /* background-color: red; */
+  font-size: 18px;
+  font-family: sans-serif;
+  color: black;
+}
+
+.text {
+  /* color: #000000; */
+  font-family: "Times New Roman", Times, serif;
+}
+
+.del-btn {
+  font-size: 20px;
+  color: #000000;
+  margin-right: 10px;
+}
