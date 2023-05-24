@@ -1,9 +1,11 @@
 body {
   background-color: #c2dde6;
+  
+   
 }
 
 .add-icon {
-  margin-left: 200px;
+  margin-left: 690px;
   margin-bottom: 2px;
   /* background-color: red; */
   /* color: green; */
@@ -31,10 +33,11 @@ body {
     margin-right: 5px;
     margin-left: 8px;
     margin-bottom: 3px;
+    font-size: 35px;
   }
   
 .addressbook-icon{
-      margin-left: 350px;
+      margin-left: 690px;
       margin-bottom: px;
       /* background-color: red; */
       /* color: green; */
@@ -46,7 +49,7 @@ body {
   }
   
 .create-title {
-    color: 101357;
+    color: #101357;
     font-weight: bold;
     font-family: "Times New Roman", Times, serif;
   text-align: center;
@@ -55,30 +58,33 @@ body {
 }
 
 .main-container {
-  margin-top: 35px;
-  background-color: rgb(176, 202, 240);
-  width: 500px;
-  height: 680px;
-  margin-left: 500px;
+  backgroundImage: url("./assets/bgimage.jpg") ;
+  margin-top: 30px;
+  /* background-color: rgb(176, 202, 240); */
+  
+  width: 1430px;
+  height: 600px;
+  margin-left: 50px;
   /* font-style:oblique; */
   border: 2px solid black;
   border-radius: 50px;
-  box-shadow: 20px 20px 8px 5px rgb(7, 26, 108);
+  box-shadow: 20px 20px 8px -8px rgb(4, 24, 150);
+  /* box-shadow: 20px 20px 8px 5px rgb(7, 26, 108); */
   padding: 23px;
   font-weight: bold;
   /* color: white; */
 }
 
 .main-container-read {
-  margin-top: 35px;
-  background-color: rgb(176, 202, 240);
-  width: 800px;
-  height: 680px;
-  margin-left: 400px;
+  margin-top: 30px;
+  /* background-color: rgb(176, 202, 240); */ 
+  width: 1430px;
+  /* height: 600px; */
+  margin-left: 50px;
   /* font-style:oblique; */
   border: 2px solid black;
   border-radius: 50px;
-  box-shadow: 20px 20px 8px 5px rgb(7, 26, 108);
+  box-shadow: 20px 20px 8px -8px rgb(4, 24, 150);
   padding: 23px;
   font-weight: bold;
   /* color: white; */
@@ -89,17 +95,48 @@ body {
   padding: 10px;
   margin-left: 50px;
   width: 400px;
+  margin-top: -20px;
+}
+.field-design{
+  /* background-color: red; */
+  font-size: 25px;
+  color: #101357;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.nav-design{
+  background-color:#1abde6;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  
+  
+}
+
+.nav-title-design{
+  /* background-color: red; */
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: #101357;
+  margin-left: 10px;
+}
+
+.nav-link{
+  color: #101357;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
 }
 
 .input-design {
   /* background-color: red; */
   border-radius: 50px;
-  width: 350px;
+  width: 380px;
 }
 
 
 .sb {
-  margin-top: 120px;
+  margin-top: px;
   margin-left: 85px;
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;

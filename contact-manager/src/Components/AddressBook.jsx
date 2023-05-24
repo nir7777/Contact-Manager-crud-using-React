@@ -7,6 +7,7 @@ import { BsPersonAdd } from "react-icons/bs";
 import { BsMagic } from "react-icons/bs";
 import {FaRegAddressBook} from "react-icons/fa"
 import { BsFillXSquareFill } from "react-icons/bs";
+import Navbar from "./Navbar";
 
 const AddressBook = () => {
   const [data, setData] = useState([]);
@@ -51,6 +52,7 @@ const AddressBook = () => {
 
   return (
     <>
+    <Navbar/>
       <div className="main-container-read">
       <FaRegAddressBook className="addressbook-icon" />
         <h1 className="read-title">Address Book</h1>
@@ -74,12 +76,12 @@ const AddressBook = () => {
               <th scope="col"></th>
             </tr>
           </thead>
-          {data.map((eachData) => {
+          {data.map((eachData,index) => {
             return (
               <>
                 <tbody>
                   <tr className="table-data">
-                    <th scope="row">{eachData.id}</th>
+                    <th scope="row">{index+1}</th>
                     <td>{eachData.name}</td>
                     <td>{eachData.number}</td>
                     <td>{eachData.email}</td>
